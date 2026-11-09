@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #000;
+  --secondary: #111;
+  --main: #fff;
+  --s: #b3b3b3;
+  --borders: #333;
+  --hover: #e5e5e5;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--primary);
+  font-family: "Inter", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 7%;
+  border-bottom: 1px solid #222;
+}
+
+.logo {
+  color: var(--main);
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 800;
+  letter-spacing: -1px;
+  position: relative;
+  top: 20px;
+}
+
+.logo span {
+  color: #888;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  position: relative;
+  margin-left: 500px;
+}
+
+.nav-links a {
+  color: var(--s);
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: var(--main);
+}
+
+.nav-btn {
+  padding: 12px 20px;
+  background-color: var(--main);
+  color: var(--primary);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  border: 1px solid var(--main);
+  transition: 0.3s ease;
+  position: absolute;
+  left: 1200px;
+  top: 40px;
+}
+
+.nav-btn:hover {
+  background-color: var(--primary);
+  color: var(--main);
+}
+
+.art {
+  color: var(--main);
+  margin-top: 70px;
+  margin-left: 30px;
+}
+
+.art-title {
+  font-size: 12px;
+  font-weight: 200;
+  line-height: 1.2;
+  border: 2px solid var(--borders);
+  border-radius: 7px;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.hero-section h1 {
+  color: var(--main);
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.hero-section p {
+  color: var(--borders);
+  margin-left: 10px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.h-btn{
+  margin-left: 10px;
+  background-color: var(--main);
+  color: var(--primary);
+  padding: 10px;
+  text-decoration: none;
+}
+
+.h-btn1{
+  margin-left: 20px;
+  color: var(--main);
+  border: 1px solid var(--borders);
+  padding: 10px;
+  text-decoration: none;
+}
+
+.sub-h1{
+  margin-left: 20px;
+  margin-top: 30px;
+  border-top: 1px solid var(--borders);
+  border-bottom: 1px solid var(--borders);
+  width: 100%;
+  white-space: nowrap;
+  padding: 20px 0;
+}
+
+.all {
+  display: inline-block;
+  width: 12%;
+  text-align: centre;
+  vertical-align: middle;
+  white-space: normal;
+}
+.all h2 {
+  color: var(--main);
+  margin: 0 0 8px;
+  font-size: 28px;
+}
+
+.all p {
+  color: #aaa;
+  margin: 0;
+  font-size: 13px;
+}
+
+.all1 {
+  display: inline-block;
+  width: 1px;
+  height: 55px;
+  background-color: var(--borders);
+  vertical-align: middle;
+  margin: 0 25px;
+}
+
+.trust{
+  display: inline-block;
+  width: 43%;
+  vertical-align: middle;
+  white-space: normal;
+}
+
+.trust p{
+  color: #aaa;
+  font-size: 11px;
+  margin: 0 0 12px;
+  text-align: left;
+}
+
+.con {
+  display: inline-block;
+  width: 19%;
+  text-align: center;
+   vertical-align: middle;
+   color: var(--main);
+}
