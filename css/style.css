@@ -113,7 +113,16 @@ body {
   margin-bottom: 40px;
 }
 
-.h-btn{
+.hero-section img {
+  position: absolute;
+  left: 800px;
+  top: 100px;
+  width: 600px;
+  height: 400px;
+  object-fit: contain;
+}
+
+.h-btn {
   margin-left: 10px;
   background-color: var(--main);
   color: var(--primary);
@@ -121,7 +130,7 @@ body {
   text-decoration: none;
 }
 
-.h-btn1{
+.h-btn1 {
   margin-left: 20px;
   color: var(--main);
   border: 1px solid var(--borders);
@@ -129,7 +138,7 @@ body {
   text-decoration: none;
 }
 
-.sub-h1{
+.sub-h1 {
   margin-left: 20px;
   margin-top: 30px;
   border-top: 1px solid var(--borders);
@@ -167,14 +176,14 @@ body {
   margin: 0 25px;
 }
 
-.trust{
+.trust {
   display: inline-block;
   width: 43%;
   vertical-align: middle;
   white-space: normal;
 }
 
-.trust p{
+.trust p {
   color: #aaa;
   font-size: 11px;
   margin: 0 0 12px;
@@ -185,6 +194,6 @@ body {
   display: inline-block;
   width: 19%;
   text-align: center;
-   vertical-align: middle;
-   color: var(--main);
+  vertical-align: middle;
+  color: var(--main);
 }
